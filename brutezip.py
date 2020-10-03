@@ -25,7 +25,7 @@ except FileExistsError:
 
 # counter = 0
 print(line)
-with open('rockyou.txt', errors='ignore') as dictionary:
+with open('passwords.txt', errors='ignore') as dictionary:
     with ZipFile(input('zip archive name: ')) as archive:
         print(line)
         for password in generator(dictionary):
